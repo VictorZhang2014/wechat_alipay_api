@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-control" content="no-cache">
+<meta http-equiv="Cache" content="no-cache">
+
+<title>指南针彩经-微信支付测试</title>
+
+<script src="https://res2.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script>
+    
+function main() {    
+
+    let state_ = parseInt(new Date().getTime())
+    let redirect_uri = "https://static.google.com/wechat/test_openid.html"
+    window.location.href = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxb64949b42222960d&redirect_uri=" + redirect_uri + "&response_type=code&scope=snsapi_base&state=" + state_ + "#wechat_redirect"
+ 
+ 
+} 
+
+main()
+
+</script>
+</head>
+<body>
+</body>
+</html>

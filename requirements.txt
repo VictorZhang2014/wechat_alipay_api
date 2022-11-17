@@ -1,0 +1,10 @@
+alipay-sdk-python==3.6.305
+certifi==2022.6.15
+charset-normalizer==2.1.0
+idna==3.3
+pyasn1==0.4.8
+pycryptodome==3.15.0
+requests==2.28.1
+rsa==4.9
+tornado==6.2
+urllib3==1.26.11
